@@ -7,6 +7,10 @@
     /* align-items: center; */
 }
 
+a{
+    text-decoration: none;
+}
+
 /*헤더 영역*/
 
 header {
@@ -39,36 +43,54 @@ header {
     float: right;
     text-align: right;
     display: flex;
-    position: absolute;
+    position: relative;
     top: 40px;
-    right: 400px;
+    right: 50px;
     color: #000000;
 }
 
 
-.submenu {
-    width: 100px;
+.submenu a {
+    width: 150px;
     height: 30px;
     float: right;
     padding: 10px;
     text-align: center;
+    padding: 0px 10px;
+    color: white;
 }
 
-.submenu:hover {
-    background-color: #4294ff;
-    color: aliceblue;
+.submenu a:hover {
+    background-color: aliceblue;
+    color: black;
 }
 
 .submenuslide {
-    width: 800px;
+    width: 750px;
     height: 120px;
-    display: none;
+    display: flex;
+    position: absolute;
+    background-color: #4294ff;
+    color: aliceblue;
+    top: 50px;
+    left: 90px;
+    z-index: 10;
+    text-align: center;
 }
 
-.submenuslide>li {
-    width: 200px;
+.submenuslide:hover {
+    width: 750px;
+    height: 120px;
+    background-color: #4294ff;
+    color: aliceblue;
+    z-index: 9;
+    top: 50px;
+}
+
+.submenuslide ul li {
+    width: 150px;
     height: 30px;
-    text-align: center;
+    padding: 0px 15px;
 }
 
 /*이미지 슬라이드 영역*/
@@ -78,6 +100,23 @@ header {
 }
 
 .imageslide {
+    width: 1200px;
+    height: 300px;
+}
+
+.img_ul {
+    width: 3600px;
+    height: 300px;
+    
+}
+
+.img_ul>li {
+    float: left;
+    width: 1200px;
+    height: 300px;;
+}
+
+.slide_img {
     width: 1200px;
     height: 300px;
 }
@@ -101,10 +140,42 @@ header {
     float: left;
  }
 
+ .banner_img {
+    width: 400px;
+    height: 200px;
+ }
+
+ .banner_text {
+    width: 40px;
+    height: 25px;
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+ }
+
 .shortcut{
     width: 400px;
     height: 200px;
     float: right;
+ }
+
+ .shortcut_img {
+    width: 400px;
+    height : 200px
+ }
+
+ .shortcut_text {
+    width: 70px;
+    height: 25px;
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
  }
 
  /*footer영역*/
