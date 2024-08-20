@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+* {
+    width: 100%;
+    color: #333333;
+    list-style: none;
+}
+
+html, body {
+    max-width: 1000px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+/*header*/
+
+header {
+    width: 200px;
+    float: left;
+}
+
+.wrap {
+    width: 200px;
+    height: 650px;
+    background-color: #8d8d8d;
+}
+
+.logo {
+    width: 180px;
+    height: 50px;
+}
+
+.logo img {
+    width: 180px;
+    padding: 30px 10px;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.submenu{
+    width: 200px;
+    padding: 0px;
+    position: absolute;
+}
+
+.submenu li a {
+    width: 180px;
+    height: 40px;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+}
+
+/* .submenu li {
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    
+} */
+
+.submenulist {
+    width: 180px;
+    height: 200px;
+    padding: 0px;
+    position: absolute;
+    left: 190px;
+    top: -30px;
+    background-color: rgb(221, 221, 221);
+    display: none;
+    z-index: 1;
+}
+
+.submenulist li {
+    width: 180px;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+}
+
+.submenulist li:hover {
+    background-color: #919191;
+    color: rgb(255, 192, 114);
+}
+
+/*imgslide*/
+
+.imgslide {
+    float: right;
+    width: 800px;
+    height: 350px;
+}
+
+/*content*/
+
+.content {
+    float: right;
+    width: 800px;
+    height: 200px;
+}
+
+.notice {
+    float: left;
+    width: 250px;
+    height: 200px;
+}
+
+.gallery {
+    float: left;
+    width: 250px;
+    height: 200px;
+}
+
+.shortcut {
+    float: right;
+    width: 250px;
+    height: 200px;
+}
+
+
+/*footer*/
+
+footer {
+    float: right;
+    width: 800px;
+    height: 100px;
+}
+
+.footerlogo {
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+
+.footermenu {
+    float: right;
+    width: 650px;
+    height: 50px;
+}
+
+.copy {
+    float: right;
+    width:650px;
+    height: 50px;
+}
